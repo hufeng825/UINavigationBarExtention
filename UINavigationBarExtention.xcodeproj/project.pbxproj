@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB436F10169AE0A700F0036B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB436F0F169AE0A700F0036B /* UIKit.framework */; };
+		AB436F12169AE0A700F0036B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB436F11169AE0A700F0036B /* Foundation.framework */; };
+		AB436F14169AE0A700F0036B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB436F13169AE0A700F0036B /* CoreGraphics.framework */; };
+		AB436F1A169AE0A700F0036B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB436F18169AE0A700F0036B /* InfoPlist.strings */; };
+		AB436F1C169AE0A700F0036B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB436F1B169AE0A700F0036B /* main.m */; };
+		AB436F20169AE0A700F0036B /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB436F1F169AE0A700F0036B /* TKAppDelegate.m */; };
+		AB436F22169AE0A700F0036B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB436F21169AE0A700F0036B /* Default.png */; };
+		AB436F24169AE0A700F0036B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB436F23169AE0A700F0036B /* Default@2x.png */; };
+		AB436F26169AE0A700F0036B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB436F25169AE0A700F0036B /* Default-568h@2x.png */; };
+		AB436F29169AE0A700F0036B /* TKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB436F28169AE0A700F0036B /* TKMasterViewController.m */; };
+		AB436F2C169AE0A700F0036B /* TKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB436F2B169AE0A700F0036B /* TKDetailViewController.m */; };
+		AB436F2F169AE0A700F0036B /* TKMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB436F2D169AE0A700F0036B /* TKMasterViewController_iPhone.xib */; };
+		AB436F32169AE0A700F0036B /* TKMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB436F30169AE0A700F0036B /* TKMasterViewController_iPad.xib */; };
+		AB436F35169AE0A700F0036B /* TKDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB436F33169AE0A700F0036B /* TKDetailViewController_iPhone.xib */; };
+		AB436F38169AE0A700F0036B /* TKDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB436F36169AE0A700F0036B /* TKDetailViewController_iPad.xib */; };
+		AB436F46169AE0C600F0036B /* top_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AB436F42169AE0C600F0036B /* top_bg.png */; };
+		AB436F47169AE0C600F0036B /* top_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB436F43169AE0C600F0036B /* top_bg@2x.png */; };
+		AB436F48169AE0C600F0036B /* UINavigationBarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB436F45169AE0C600F0036B /* UINavigationBarAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB436F0B169AE0A700F0036B /* UINavigationBarExtention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationBarExtention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB436F0F169AE0A700F0036B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB436F11169AE0A700F0036B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB436F13169AE0A700F0036B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB436F17169AE0A700F0036B /* UINavigationBarExtention-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavigationBarExtention-Info.plist"; sourceTree = "<group>"; };
+		AB436F19169AE0A700F0036B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB436F1B169AE0A700F0036B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB436F1D169AE0A700F0036B /* UINavigationBarExtention-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBarExtention-Prefix.pch"; sourceTree = "<group>"; };
+		AB436F1E169AE0A700F0036B /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		AB436F1F169AE0A700F0036B /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		AB436F21169AE0A700F0036B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB436F23169AE0A700F0036B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB436F25169AE0A700F0036B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB436F27169AE0A700F0036B /* TKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKMasterViewController.h; sourceTree = "<group>"; };
+		AB436F28169AE0A700F0036B /* TKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKMasterViewController.m; sourceTree = "<group>"; };
+		AB436F2A169AE0A700F0036B /* TKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKDetailViewController.h; sourceTree = "<group>"; };
+		AB436F2B169AE0A700F0036B /* TKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDetailViewController.m; sourceTree = "<group>"; };
+		AB436F2E169AE0A700F0036B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TKMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		AB436F31169AE0A700F0036B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TKMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		AB436F34169AE0A700F0036B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TKDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		AB436F37169AE0A700F0036B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TKDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		AB436F42169AE0C600F0036B /* top_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bg.png; sourceTree = "<group>"; };
+		AB436F43169AE0C600F0036B /* top_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_bg@2x.png"; sourceTree = "<group>"; };
+		AB436F44169AE0C600F0036B /* UINavigationBarAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationBarAdditions.h; sourceTree = "<group>"; };
+		AB436F45169AE0C600F0036B /* UINavigationBarAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationBarAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB436F08169AE0A700F0036B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB436F10169AE0A700F0036B /* UIKit.framework in Frameworks */,
+				AB436F12169AE0A700F0036B /* Foundation.framework in Frameworks */,
+				AB436F14169AE0A700F0036B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB436F00169AE0A700F0036B = {
+			isa = PBXGroup;
+			children = (
+				AB436F15169AE0A700F0036B /* UINavigationBarExtention */,
+				AB436F0E169AE0A700F0036B /* Frameworks */,
+				AB436F0C169AE0A700F0036B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB436F0C169AE0A700F0036B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB436F0B169AE0A700F0036B /* UINavigationBarExtention.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB436F0E169AE0A700F0036B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB436F0F169AE0A700F0036B /* UIKit.framework */,
+				AB436F11169AE0A700F0036B /* Foundation.framework */,
+				AB436F13169AE0A700F0036B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB436F15169AE0A700F0036B /* UINavigationBarExtention */ = {
+			isa = PBXGroup;
+			children = (
+				AB436F42169AE0C600F0036B /* top_bg.png */,
+				AB436F43169AE0C600F0036B /* top_bg@2x.png */,
+				AB436F44169AE0C600F0036B /* UINavigationBarAdditions.h */,
+				AB436F45169AE0C600F0036B /* UINavigationBarAdditions.m */,
+				AB436F1E169AE0A700F0036B /* TKAppDelegate.h */,
+				AB436F1F169AE0A700F0036B /* TKAppDelegate.m */,
+				AB436F27169AE0A700F0036B /* TKMasterViewController.h */,
+				AB436F28169AE0A700F0036B /* TKMasterViewController.m */,
+				AB436F2A169AE0A700F0036B /* TKDetailViewController.h */,
+				AB436F2B169AE0A700F0036B /* TKDetailViewController.m */,
+				AB436F2D169AE0A700F0036B /* TKMasterViewController_iPhone.xib */,
+				AB436F30169AE0A700F0036B /* TKMasterViewController_iPad.xib */,
+				AB436F33169AE0A700F0036B /* TKDetailViewController_iPhone.xib */,
+				AB436F36169AE0A700F0036B /* TKDetailViewController_iPad.xib */,
+				AB436F16169AE0A700F0036B /* Supporting Files */,
+			);
+			path = UINavigationBarExtention;
+			sourceTree = "<group>";
+		};
+		AB436F16169AE0A700F0036B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB436F17169AE0A700F0036B /* UINavigationBarExtention-Info.plist */,
+				AB436F18169AE0A700F0036B /* InfoPlist.strings */,
+				AB436F1B169AE0A700F0036B /* main.m */,
+				AB436F1D169AE0A700F0036B /* UINavigationBarExtention-Prefix.pch */,
+				AB436F21169AE0A700F0036B /* Default.png */,
+				AB436F23169AE0A700F0036B /* Default@2x.png */,
+				AB436F25169AE0A700F0036B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB436F0A169AE0A700F0036B /* UINavigationBarExtention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB436F3B169AE0A700F0036B /* Build configuration list for PBXNativeTarget "UINavigationBarExtention" */;
+			buildPhases = (
+				AB436F07169AE0A700F0036B /* Sources */,
+				AB436F08169AE0A700F0036B /* Frameworks */,
+				AB436F09169AE0A700F0036B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UINavigationBarExtention;
+			productName = UINavigationBarExtention;
+			productReference = AB436F0B169AE0A700F0036B /* UINavigationBarExtention.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB436F02169AE0A700F0036B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = LuoBin;
+			};
+			buildConfigurationList = AB436F05169AE0A700F0036B /* Build configuration list for PBXProject "UINavigationBarExtention" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB436F00169AE0A700F0036B;
+			productRefGroup = AB436F0C169AE0A700F0036B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB436F0A169AE0A700F0036B /* UINavigationBarExtention */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB436F09169AE0A700F0036B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB436F1A169AE0A700F0036B /* InfoPlist.strings in Resources */,
+				AB436F22169AE0A700F0036B /* Default.png in Resources */,
+				AB436F24169AE0A700F0036B /* Default@2x.png in Resources */,
+				AB436F26169AE0A700F0036B /* Default-568h@2x.png in Resources */,
+				AB436F2F169AE0A700F0036B /* TKMasterViewController_iPhone.xib in Resources */,
+				AB436F32169AE0A700F0036B /* TKMasterViewController_iPad.xib in Resources */,
+				AB436F35169AE0A700F0036B /* TKDetailViewController_iPhone.xib in Resources */,
+				AB436F38169AE0A700F0036B /* TKDetailViewController_iPad.xib in Resources */,
+				AB436F46169AE0C600F0036B /* top_bg.png in Resources */,
+				AB436F47169AE0C600F0036B /* top_bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB436F07169AE0A700F0036B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB436F1C169AE0A700F0036B /* main.m in Sources */,
+				AB436F20169AE0A700F0036B /* TKAppDelegate.m in Sources */,
+				AB436F29169AE0A700F0036B /* TKMasterViewController.m in Sources */,
+				AB436F2C169AE0A700F0036B /* TKDetailViewController.m in Sources */,
+				AB436F48169AE0C600F0036B /* UINavigationBarAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB436F18169AE0A700F0036B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB436F19169AE0A700F0036B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB436F2D169AE0A700F0036B /* TKMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB436F2E169AE0A700F0036B /* en */,
+			);
+			name = TKMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AB436F30169AE0A700F0036B /* TKMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB436F31169AE0A700F0036B /* en */,
+			);
+			name = TKMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		AB436F33169AE0A700F0036B /* TKDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB436F34169AE0A700F0036B /* en */,
+			);
+			name = TKDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AB436F36169AE0A700F0036B /* TKDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB436F37169AE0A700F0036B /* en */,
+			);
+			name = TKDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB436F39169AE0A700F0036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB436F3A169AE0A700F0036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB436F3C169AE0A700F0036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINavigationBarExtention/UINavigationBarExtention-Prefix.pch";
+				INFOPLIST_FILE = "UINavigationBarExtention/UINavigationBarExtention-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB436F3D169AE0A700F0036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINavigationBarExtention/UINavigationBarExtention-Prefix.pch";
+				INFOPLIST_FILE = "UINavigationBarExtention/UINavigationBarExtention-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB436F05169AE0A700F0036B /* Build configuration list for PBXProject "UINavigationBarExtention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB436F39169AE0A700F0036B /* Debug */,
+				AB436F3A169AE0A700F0036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB436F3B169AE0A700F0036B /* Build configuration list for PBXNativeTarget "UINavigationBarExtention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB436F3C169AE0A700F0036B /* Debug */,
+				AB436F3D169AE0A700F0036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB436F02169AE0A700F0036B /* Project object */;
+}
